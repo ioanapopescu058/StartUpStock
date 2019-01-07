@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -20,7 +20,7 @@ body {
 
 .f-desc b{
   color: #31568f;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 #page {
@@ -512,6 +512,33 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   margin-bottom: 40px; }
+  .work-flex .all {
+    display: block;
+    width: 100%;
+    height: 700px; }
+    .work-flex .all .display-t {
+      height: 700px;
+      display: table; }
+      @media screen and (max-width: 480px) {
+        .work-flex .all .display-t {
+          display: block;
+          height: auto; } }
+    .work-flex .all .display-tc {
+      display: table-cell;
+      vertical-align: middle; }
+    .work-flex .all .desc {
+      padding: 0 3em;
+      background: #fff; }
+      @media screen and (max-width: 768px) {
+        .work-flex .all .desc {
+          padding: 3em; } }
+      .work-flex .all .desc h2 {
+        font-weight: 400; }
+        .work-flex .all .desc h2 a {
+          color: #303133; }
+    @media screen and (max-width: 480px) {
+      .work-flex .all {
+        width: 100%; } }
   .work-flex .half {
     display: block;
     width: 50%;
