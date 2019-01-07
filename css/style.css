@@ -18,6 +18,11 @@ body {
   color: gray;
   background: whitesmoke; }
 
+.f-desc b{
+  color: #31568f;
+  font-size: 20px; 
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
