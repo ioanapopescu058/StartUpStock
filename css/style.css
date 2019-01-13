@@ -17,9 +17,15 @@ body {
   line-height: 2;
   color: gray;
   background: whitesmoke; }
-
+.f-desc h3{
+  color: #31568f;
+}
 .f-desc b{
   color: #31568f;
+  font-size: 20px;
+}
+.f-desc p b{
+  color: #1120a1;
   font-size: 20px;
 }
 
